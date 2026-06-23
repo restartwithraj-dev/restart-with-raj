@@ -64,7 +64,7 @@ export default function Home() {
               add 
             </button>
         </div>
-        <u1 className="w-full flex flex-col gap-2 ">
+        <ul className="w-full flex flex-col gap-2 ">
           {trades.map((trade,index)=>(
            <li
               key={index}
@@ -80,7 +80,7 @@ export default function Home() {
            </li>
 
           ))}
-        </u1>
+        </ul>
 
       
       
